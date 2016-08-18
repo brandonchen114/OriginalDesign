@@ -1,10 +1,15 @@
 void setup()
 {
-  size(100,100);
+  size(400,400);
 }
+
+
 void draw()
 {
-  ellipse(50,50,50,50);
+  background(0, 128, 255); //the background is a sky blue
+
+  fill(51, 25, 0); //brown; soil
+  rect(0, 300, 400, 200); //the actual soil
 }
 
 
