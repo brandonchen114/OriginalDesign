@@ -53,8 +53,3 @@ that makes the bench appear
 
 //end draw
 }
-
-
-
-
-
