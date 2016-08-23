@@ -25,22 +25,22 @@ that makes the bench appear
 
 */
 	//bench
-		fill(255, 255, 255); //MAKE THE BENCH THE SAME COLOR AS THE BACKGROUND
-			for(int x = 0; x < 300; x+= 20){
+		 //MAKE THE BENCH THE SAME COLOR AS THE BACKGROUND
+		  for(int x = 0; x < 300; x+= 20){
 				for(int y = 0; y < 300; y+= 20){
-					rect(, y, width, height);
+              rect(x, y, width, height);
 			}
 
 		}
 
 	//the stars
- 		for(int x = -11; x < 396; x += 47){
-       		for(int y = -12; y < 250; y += 60){
-          		fill(254, 254, 133);
-           			ellipse(x + 20, y + 21, 4, 4);
+ 		  for(int x = -11; x < 396; x += 47){
+       	for(int y = -12; y < 250; y += 60){
+          	fill(254, 254, 133);
+           		ellipse(x + 20, y + 21, 4, 4);
     }
 }
-  	//the other stars
+  //the other stars
   		for(int x = 13; x < 396; x += 47){
        		for(int y = 20; y < 250; y += 60){
           		fill(254, 254, 133);
