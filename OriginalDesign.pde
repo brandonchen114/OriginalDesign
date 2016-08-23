@@ -8,11 +8,7 @@ void draw()
 { 
 	//the background is a dark nighttime
   		background(10, 10, 9); 
-	
 
-	//gray ground
-  		fill(13, 13, 13); 
-  			rect(0, 350, 400, 100); //the actual ground
 
   
 /*
@@ -26,12 +22,18 @@ that makes the bench appear
 */
 	//bench
 		 //MAKE THE BENCH THE SAME COLOR AS THE BACKGROUND
-		  for(int x = 0; x < 300; x+= 20){
-				for(int y = 0; y < 300; y+= 20){
-              rect(x, y, width, height);
-			}
+				for(int y = 290; y < 330; y+= 5){
+            fill(255, 255, 255);
+              rect(200, y, 150, 7);
 
+              /*
+              the part sticking out of the bench
+              rect
+              */
 		}
+  //gray ground
+      fill(13, 13, 13); 
+        rect(0, 350, 400, 100); //the actual ground
 
 	//the stars
  		  for(int x = -11; x < 396; x += 47){
