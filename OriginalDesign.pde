@@ -22,14 +22,19 @@ that makes the bench appear
 */
 	//bench
 		 //MAKE THE BENCH THE SAME COLOR AS THE BACKGROUND
+
+    //the part sticking out of the bench
+            fill(255, 255, 255);
+            stroke(255, 255, 255);
+              rect(190, 330, 7, 100);
+              rect(190, 330, 155, 7);
+
+
 				for(int y = 290; y < 330; y+= 5){
             fill(255, 255, 255);
+            stroke(0, 0, 0);
               rect(200, y, 150, 7);
-
-              /*
-              the part sticking out of the bench
-              rect
-              */
+              
 		}
   //gray ground
       fill(13, 13, 13); 
